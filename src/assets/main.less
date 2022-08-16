@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  transition: all 0.3s;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1280px !important;
+  }
+}
+
+.abs {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+label:hover {
+  cursor: pointer;
+  background-color: lightgrey;
+}
+label{
+  background-color: rgb(153, 148, 148)
+}
